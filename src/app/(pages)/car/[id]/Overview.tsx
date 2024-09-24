@@ -10,7 +10,7 @@ const Overview = ({ car }: { car: Car }) => {
     <div>
       <div className="grid md:grid-cols-2 mt-5 gap-5">
         {arr.map(([key, value]) => (
-          <p className="flex justify-between capitalize">
+          <p key={key} className="flex justify-between capitalize">
             <span>{key}</span>
             <span className="font-semibold">{value}</span>
           </p>
