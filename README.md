@@ -4,10 +4,9 @@
 - tailwind
 - stripe
 - mongoose
-- cloudinary
-- react-slick
-- react-icons
-- react-modal
+- millify
+- react
+- react-dom
 
 ## Backendi projenize dahil ederken
 
